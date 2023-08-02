@@ -1,0 +1,361 @@
+header {
+  position: relative;
+  max-width: 708px;
+  padding-top: 18px;
+  margin-bottom: 55px;
+}
+
+.input_search {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  width: 568px;
+  height: 203px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background-color: #FFF;
+  z-index: 999;
+}
+
+.input_search input {
+  height: 52px;
+  padding-left: 51px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url(./images/значокпоиска.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px center;
+}
+
+.input_search .list-group-item {
+  height: 50px;
+  padding-left: 15px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.img-fluid {
+  margin-right: 11px;
+}
+
+.input_search .list-group-item:first-child {
+  background-color: #FEF6D6;
+}
+
+nav {
+  max-width: 708px;
+}
+
+nav .filters,
+nav .filters a {
+  width: 155px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+nav .dropdown a {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.wrapper_cards {
+  position: relative;
+  max-width: 768px;
+  margin-top: 35px;
+  padding-bottom: 78px;
+  overflow-x: hidden;
+}
+
+.wrapper_cards::after {
+  position: absolute;
+  top: -68px;
+  left: -235px;
+  width: 364.617px;
+  height: 335px;
+  content: "";
+  border-radius: 364.617px;
+  background: rgba(253, 212, 70, 0.50);
+  filter: blur(90.25169372558594px);
+}
+
+.wrapper_cards::before {
+  position: absolute;
+  top: 739px;
+  right: -375px;
+  width: 554px;
+  height: 509px;
+  content: "";
+  border-radius: 554px;
+  background: rgba(253, 212, 70, 0.50);
+  filter: blur(137.12869262695312px);
+}
+
+.wrapper_cards .container {
+  max-width: 708px;
+}
+
+
+.card {
+  width: 216px;
+  height: 436px;
+  padding: 8px 8px 13px 8px;
+  border: 0.7px solid rgba(48, 47, 46, 0.70);
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  margin: 0;
+  color: #000;
+  font-family: Istok Web;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.615px;
+}
+
+.card .wrap_person {
+  height: 48px;
+}
+
+.card-subtitle {
+  margin: 0;
+  width: 145px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.308px;
+}
+
+.card-text {
+  width: 78px;
+  padding-right: 20px;
+  color: #F90;
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.308px;
+  background-image: url(./images/image\ 8.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.wrap_rarity {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.wrap_rarity span,
+.wrap_price span {
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.wrap_rarity span {
+  line-height: 24.923px;
+}
+
+.wrap_price span {
+  line-height: 26.308px;
+}
+
+.wrap_rarity div {
+  width: 90px;
+  height: 21px;
+  border-radius: 7px;
+  padding: 1px;
+  background: linear-gradient(rgba(255, 193, 7, 1), rgba(236, 133, 26, 1));
+}
+
+.wrap_rarity div p {
+  margin: 0;
+  border-radius: 7px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.308px;
+  background-color: #fff;
+}
+
+.wrap_price div {
+  width: 76px;
+  height: 21px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.308px;
+  border-radius: 7px;
+  background: #FDD446;
+}
+
+.card-body .btn {
+  width: 183px;
+  height: 37px;
+  margin-top: 9px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #FDD446 0%, #F69B47 100%);
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.wrap_pagination {
+  width: 258px;
+  height: 40px;
+  margin-top: 32px;
+}
+
+.wrap_pagination .list-group-item {
+  padding: 0;
+  color: #000;
+  font-family: Istok Web;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.wrap_pagination .list-group-item:not(.wrap_pagination .list-group-item:nth-child(2)){
+  width: 11px;
+}
+
+.wrap_pagination .list-group-item:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FDD446;
+}
+
+.wrap_footer {
+  background-color: #FDD446;
+}
+
+.container-fluid:first-child {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.container-fluid:first-child::after {
+  position: absolute;
+  top: 2895px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 768px;
+  height: 705px;
+  content: "";
+  border-radius: 768px;
+  background: rgba(253, 212, 70, 0.50);
+  filter: blur(190.0989990234375px);
+}
+
+footer {
+  max-width: 708px;
+  height: 310px;
+  padding-top: 28px;
+  padding-bottom: 19px;
+}
+
+.menu,
+.row {
+  width: 652px;
+}
+
+.menu h6 {
+  margin: 0;
+  color: #000;
+  font-family: Istok Web;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu .list-group-item {
+  background-color: transparent;
+  padding: 0;
+  color: #000;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.menu .list-group-item:first-child {
+  margin-bottom: 7px;
+}
+
+.menu .col {
+  padding: 0;
+}
+
+.menu .col:first-child {
+  max-width: 123px;
+}
+
+.menu .col:nth-child(2) {
+  max-width: 158px;
+}
+
+.menu .col:last-child {
+  max-width: 210px;
+}
+
+
+
+.contact {
+  position: absolute;
+  top: -17px;
+  left: 28px;
+  width: 50px;
+}
+
+.section_star {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.section_star::after {
+  position: absolute;
+  content: "";
+  top: 23px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.company {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

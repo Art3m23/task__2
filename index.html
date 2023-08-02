@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>task2</title>
+</head>
+
+<body>
+  <div class="container-fluid px-0 overflow-hidden">
+    <header class="d-flex justify-content-between mx-auto w-100">
+      <a><img src="./images/лого.png" alt="лого" /></a>
+      <div class="input_search overflow-hidden">
+        <input type="text" class="disabled w-100 border-0" value="Анастасия" />
+        <ul class="list-group w-100">
+          <li class="list-group-item border-0 d-flex justify-content-start align-items-center">
+            <img class="img-fluid" src="./images/girl_1.png" alt="girl" />
+            Анастасия Ивлеева
+          </li>
+          <li class="list-group-item border-0 d-flex justify-content-start align-items-center">
+            <img class="img-fluid" src="./images/girl_2.png" alt="girl" />
+            Анастасия Задорожная
+          </li>
+          <li class="list-group-item border-0 d-flex justify-content-start align-items-center">
+            <img class="img-fluid" src="./images/girl_3.png" alt="girl" />
+            Анастасия Макеева
+          </li>
+        </ul>
+      </div>
+    </header>
+    <nav class="d-flex justify-content-start mx-auto w-100">
+      <div class="dropdown filters">
+        <a class="btn d-flex justify-content-between align-items-center" href="#" role="button"
+          data-bs-toggle="dropdown">
+          Фильтры
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+            <path d="M6.5 10L12.1292 0.25H0.870835L6.5 10Z" fill="#FDD446" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <section class="wrapper_cards w-100 mx-auto">
+      <div class="container  px-0">
+        <div class="row w-100  me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100  me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100  me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100  me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100  me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100 me-0 ms-auto">
+          <div class="col-4 px-0">
+            <div class="card">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card mx-auto">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 px-0">
+            <div class="card ms-auto me-0">
+              <img src="./images/фотка.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Без слов</h5>
+                <div class="wrap_person d-flex justify-content-between align-items-center w-100">
+                  <div class="image_wrep">
+                    <img src="./images/маленькая фотка звезды.png" class="img-fluid" alt="маленькая фотка звезды">
+                  </div>
+                  <div class="text_wrep">
+                    <h5 class="card-subtitle">Настя Ивлеева Вячеславовна</h5>
+                    <p class="card-text">проверено</p>
+                  </div>
+                </div>
+                <div class="wrap_rarity d-flex justify-content-between align-items-center w-100">
+                  <span>Редкость:</span>
+                  <div class="overflow-hidden">
+                    <p class="d-flex justify-content-center align-items-center">уникальная</p>
+                  </div>
+                </div>
+                <div class="wrap_price d-flex justify-content-between align-items-center w-100">
+                  <span>Цена:</span>
+                  <div class="d-flex justify-content-center align-items-center">от 500 ₽</div>
+                </div>
+                <a href="#" class="btn mx-auto d-block">Купить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap_pagination mx-auto">
+          <ul class="list-group flex-row justify-content-between align-items-center">
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">«</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">1</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">2</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">3</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">4</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">5</li>
+            <li class="list-group-item border-0 d-flex justify-content-center align-items-center">»</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container-fluid px-0 wrap_footer">
+    <footer class="mx-auto w-100">
+      <section class="menu mx-auto">
+        <div class="row mx-auto d-flex justify-content-between align-items-start">
+          <div class="col">
+            <h6>
+              NFT
+            </h6>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                Что такое NFT
+              </li>
+              <li class="list-group-item border-0">
+                Создайте NFT с нами
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6>
+              Компания
+            </h6>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                О нас
+              </li>
+              <li class="list-group-item border-0">
+                Отправить запрос
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6>
+              Другое
+            </h6>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                Условия использования
+              </li>
+              <li class="list-group-item border-0">
+                Политика конфиденциальности
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section_star w-100 d-flex justify-content-center align-items-center">
+        <div class="contact d-flex justify-content-between align-items-center">
+          <img src="./images/twitter-3 1.png" alt="twitter"/>
+          <img src="./images/image 3.png" alt="vk"/>
+        </div>
+        <img src="./images/Vector 2 1.svg" alt="звезда"/>
+      </section>
+      <section class="text-center company">
+        @
+        <a class="text-reset text-decoration-none" href="#">tnft.ru</a>
+        Company, Inc
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
